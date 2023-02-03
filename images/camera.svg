@@ -1,0 +1,24 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="11.8121" cy="11.8122" r="11.6497" fill="black"/>
+<circle cx="11.8114" cy="11.8111" r="8.47254" fill="#0B0B0B"/>
+<circle cx="11.8122" cy="11.8121" r="4.76629" fill="#020202"/>
+<path d="M14.7314 11.8134C14.7314 13.4249 13.4251 14.7313 11.8136 14.7313C10.2021 14.7313 8.89576 13.4249 8.89576 11.8134C8.89576 10.2019 10.2021 8.89557 11.8136 8.89557C13.4251 8.89557 14.7314 10.2019 14.7314 11.8134Z" fill="url(#paint0_radial)" fill-opacity="0.5"/>
+<path d="M14.7314 11.8134C14.7314 13.4249 13.4251 14.7313 11.8136 14.7313C10.2021 14.7313 8.89576 13.4249 8.89576 11.8134C8.89576 10.2019 10.2021 8.89557 11.8136 8.89557C13.4251 8.89557 14.7314 10.2019 14.7314 11.8134Z" fill="url(#paint1_radial)"/>
+<path d="M14.7314 11.8134C14.7314 13.4249 13.4251 14.7313 11.8136 14.7313C10.2021 14.7313 8.89576 13.4249 8.89576 11.8134C8.89576 10.2019 10.2021 8.89557 11.8136 8.89557C13.4251 8.89557 14.7314 10.2019 14.7314 11.8134Z" fill="url(#paint2_radial)"/>
+<path d="M14.7314 11.8134C14.7314 13.4249 13.4251 14.7313 11.8136 14.7313C10.2021 14.7313 8.89576 13.4249 8.89576 11.8134C8.89576 10.2019 10.2021 8.89557 11.8136 8.89557C13.4251 8.89557 14.7314 10.2019 14.7314 11.8134Z" stroke="#020202" stroke-width="0.519543"/>
+<defs>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(11.8136 11.8134) rotate(90) scale(3.17762)">
+<stop stop-color="#8EA1B9" stop-opacity="0"/>
+<stop offset="0.395833" stop-color="#96A7BF" stop-opacity="0"/>
+<stop offset="1" stop-color="#9BABC3"/>
+</radialGradient>
+<radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(11.8136 10.4894) rotate(141.34) scale(1.69556)">
+<stop stop-color="#8EA1B9"/>
+<stop offset="1" stop-color="#90A2BA" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint2_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(13.4024 13.667) rotate(-140.194) scale(2.06816)">
+<stop stop-color="#A8CEFE"/>
+<stop offset="1" stop-color="#90A2BA" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

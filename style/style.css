@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+*{
+    margin: 0;  
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 20px;
+    margin: 0 auto ;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+header {
+    height: 100vh;
+    background-color: #d6eae2;
+    padding: 50px 0; 
+}
+
+.logo-language {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 50px;
+    
+}
+
+.banner{ 
+    display: flex;
+    align-items:  center;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+.banner-text > p {
+    font-size: 18px;    
+    margin-bottom: 100px;
+}
+
+.banner-text > a {
+    padding: 16px 35px;
+    background-color:#0b8a0b;
+    border-radius: 5px; 
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner > img {
+    position: relative;
+    height: 600px;
+    z-index: 0;
+
+}
+
+main {
+    padding-bottom: 100px;
+}
+
+
+.features {
+    position: relative;
+    margin-top: -100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    z-index: 10;
+    border-radius: 20px;
+    max-width: 1300px;
+    box-shadow: 0px 5px 10px 0px rgb(124, 122, 122);
+    min-height: 400px;
+}
+
+.features-card {
+    width: 300px;
+    margin: 50px 50px;
+    display: flex;
+    align-items: center;
+}
+
+.features-card > img {
+    margin-right: 20px;
+}
+
+.features-card > span {
+    width: 200px;
+
+}
+
+
+.cards {
+    padding: 100px 70px;
+   
+}
+
+.card  {
+    margin-bottom: 60px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    border-radius: 20px;
+    position: relative;
+    height: 400px;
+}
+
+.cards-box{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 600px;
+}   
+
+.cards-box:nth-child(1) , .cards-box:nth-child(3){
+    left: -20%;
+
+}
+
+
+.cards-box h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.cards-box p {
+    font-size: 18px;
+}
+
+.card:nth-child(1) {
+    background-color: #EDF7FF;
+}
+
+.card:nth-child(2) {
+    background-color: #faf0fd;
+    margin-left: auto;
+    justify-content: flex-end;
+}
+
+.card:nth-child(3) {
+    background-color: #E3F9E7;
+}
+
+.card:nth-child(4) {
+    background-color: #fff8e2;
+    margin-left: auto;
+    justify-content: flex-end;
+}
+.card img {
+    width: 50%;
+    animation: img-movement 4s infinite;
+    
+
+}
+
+@keyframes img-movement {
+    0% {
+        width: 50%;
+       margin-top: -20px;
+       margin-left: -20px; 
+    }
+
+    50% { 
+       margin-bottom: -20px;
+       margin-right: -20px; 
+       width: 55%;
+    }
+}
+
+.skills {
+    padding: 100px 60px;
+    left: 135px;
+}
+
+.skills {
+    position: relative;
+    margin-top: 120px;
+    background-color: #ecf1f5;
+    flex-wrap: wrap;
+    padding: 120PX 100PX;
+    border-radius: 45PX;
+    max-width: 1300PX;
+    min-height: 525PX;
+}
+
+.skills img {
+    padding: 50px 15px;
+}
+
+.skills-box h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.skills-box p {
+    font-size: 30px;
+}
+
+.skills-box {
+    display: flex;
+    transition: 2s;
+}
+
+.skills-box img:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.steps {
+    background-color: #f7f8f9;
+    padding: 100px 0;
+  }
+  
+  .steps h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 80px;
+  }
+  
+  .steps .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .steps .container ul {
+    list-style: none;
+    margin-right: 200px;
+  }
+  
+  .steps .container li {
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  
+  .steps-list-number {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border: 2px solid #00d100;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    color: #00d100;
+    margin-right: 20px;
+    padding-top: 4px;
+  }
+  
+  .steps-list-active {
+    box-shadow: 0 0 5px 1px rgb(141, 141, 141);
+  }
+  
+  .steps-photo {
+    height: 600px;
+    width: 400px;
+    background-image: url('../images/phone-cover.png');
+    background-size: cover;
+    padding-top: 40px;
+    padding-left: 67px;
+  }
+  
+  .steps-photo-screen {
+    height: 520px;
+    width: 265px;
+    background-image: url('../images/screen.png');
+    background-size: cover;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  
+  .steps-photo-2 {
+    position: relative;
+    height: 900px;
+    width: 600px;
+    background-image: url('../images/phone-cover.png');
+    background-size: cover;
+  }
+  .steps-photo-screen-2 {
+    height: 800px;
+    width: 400px;
+    background-image: url('../images/screen.png');
+    background-size: cover;
+    border-radius: 50px;
+    position: absolute;
+    top: 50px;
+    left:100px;
+  }
+  .steps-photo-screen-2 img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
